@@ -1,0 +1,62 @@
+{
+    "projet":{
+        "projectSelect": "FURNITURE",
+        "amount": "10K",
+        "creditMaturity": "M60"
+    },
+    "identity":{
+        "gender" : "#GENDERCODE_M",
+        "maritalStatus" : "SINGLE", 
+        "lastName": "youyou" ,
+        "firstName": "Kiki", 
+        "dateOfBirthDay": "15", 
+        "dateOfBirthMouth": "08", 
+        "dateOfBirthYear": "1988", 
+        "address": "3 rue des tulipiers'", 
+        "postalCode": "33170", 
+        "city" : "3319233170", 
+        "countryZone" : "FR" , 
+        "email" : "youyou@yopmail.com" , 
+        "cellPhoneNumber" : "0651736111", 
+        "phoneNumber" : "0551736112", 
+        "childNumber" : "0",
+        "insurance_subscribers" : "YES" 
+    }, 
+    "activity":{
+        "activitySector" : "INDEPENDENT", 
+        "profession" : "CRAFTSMAN", 
+        "businessActivityStartDateMouth" : "5", 
+        "businessActivityStartDateYear" : "2000", 
+        "mainIncome" : "2500" 
+    },
+    "logement":{
+        "housingStatus" : "TENANT", 
+        "housingStatusMouth" : "12",
+        "housingStatusYear" : "2010", 
+        "housingAssistance" : "300", 
+        "additionalIncome" : "0", 
+        "rentAmount" : "600",
+        "loanCount" : "1",
+        "loanAmount" : "450", 
+        "type" : "REFURBISHMENT_WORKS"  
+    },
+    "banque":{
+        "bankCode" : "SOCIETE_GENERALE", 
+        "bankFromYear" : "1998" 
+    },
+    "activityStatus":{
+        "isIndependent":true,
+        "isSalarie":false,
+        "isRetired":false
+    },
+    "situation_logement":{
+        "isOwner":false,
+        "isTenant":true, 
+        "isOwnerWithCredit":false,
+        "isParent":false,
+        "haveOtherLoan":true
+    },
+    "mariedStatus":{
+        "isMariedOrPaced":false
+    }
+}

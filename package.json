@@ -1,0 +1,16 @@
+{
+  "name": "projet-youcef",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:op": "cypress open",
+    "cy:run": "cypress run "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^5.5.0"
+  }
+}
