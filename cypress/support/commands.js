@@ -134,12 +134,12 @@ Cypress.Commands.add('identity_Partner', (partnerStatus, identity_partenaire) =>
     }
 })
 Cypress.Commands.add('contact', (identityStep) => {
-    cy.get('#cellPhoneNumber-input').type(identityStep.cellPhoneNumber).should('have.class', 'ng-valid')
-    cy.get('#phoneNumber-input').type(identityStep.phoneNumber).should('have.class', 'ng-valid')
+    cy.get('#cellPhoneNumber-input').type(identityStep.cellPhoneNumber).should('have.value',identityStep.cellPhoneNumber )
+    cy.get('#phoneNumber-input').type(identityStep.phoneNumber).should('have.value',identityStep.phoneNumber)
     cy.get('#address-input').type(identityStep.address).should('have.class', 'ng-valid')
     cy.get('#postalCode-input').type(identityStep.postalCode).should('have.class', 'ng-valid')
     cy.get('#city-input').select(identityStep.city).should('have.class', 'ng-valid')
-    cy.get('#countryZone-input').select(identityStep.countryZone).should('have.class', 'ng-valid')
+    
 })
 
 Cypress.Commands.add('assurance', (identity) => {

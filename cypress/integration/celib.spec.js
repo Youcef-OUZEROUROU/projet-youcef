@@ -83,7 +83,7 @@ describe(' Celib credit ', () => {
         cy.buttonClick('Suite')
     })
      
-    /*it('Contact', () =>{
+    it('Contact', () =>{
         cy.urlWebSite('/contact')
         cy.pageTitle('Younited Credit')
         cy.contact( celib.identity)
@@ -98,7 +98,6 @@ describe(' Celib credit ', () => {
     it('Test_page_offre', () =>{
         cy.urlWebSite('/modify-offer')
         cy.pageTitle('Younited Credit')
-    })*/
-
+    })
     
 })
